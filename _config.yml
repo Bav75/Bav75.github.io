@@ -1,11 +1,11 @@
 # Site settings
 author: Brian Velez
-title: 
+title: Built By Brian
 header-img: img/home-bg.png
 email: brian.velez@blackrock.com
 copyright_name: Brian Velez
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Projects, problems, and thoughts encountered as a new developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Bav75
