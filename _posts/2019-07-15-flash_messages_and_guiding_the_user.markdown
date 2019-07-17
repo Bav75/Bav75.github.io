@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Flash messages and Guiding the User "
-date:       2019-07-15 17:35:02 +0000
+date:       2019-07-15 13:35:03 -0400
 permalink:  flash_messages_and_guiding_the_user
 ---
 
@@ -48,10 +48,13 @@ flash[:message] = "Please provide all of the requested sign-up information. You 
 redirect '/login'
 ```
 
+```
 <login_view.erb>
 
 <% flash.keys.each do |type| %>
 <%= flash[type] %>
+```
+
 
 Upon being redirected to the login route and being served the login view, the user will receive any messages / information saved in the Flash message hash. In this case we implemented a simplified way of showing the information within the Flash message, although one could easily picture more visually appealing or user friendly approaches (such as notifications which can be clicked on to close, or messages set to disappear after a number of seconds). 
 
